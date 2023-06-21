@@ -1,13 +1,13 @@
 import React from 'react';
 import { Stack, Box, Typography } from '@mui/material';
-import Logo from '../assets/images/Logo-1.png';
+import Logo from '../assets/images/Logo.png';
 
 const Footer = () => {
   return (
     <Box mt="80px" bgcolor="#fff3f4">
       <Stack gap="40px" sx={{ alignItems: 'center' }} px="40px" pt="40px">
-        <img src={Logo} alt="logo" width="200px" height="40px" />
-        <Typography pb="40px" variant="h5">
+        <img src={Logo} alt="logo" width="300px" height="100px" />
+        <Typography pb="10px" variant="h5">
           Made By Eduardo Melo
         </Typography>
       </Stack>

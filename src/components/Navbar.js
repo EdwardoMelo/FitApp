@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Stack } from '@mui/material';
+import { Stack, Typography } from '@mui/material';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import '@fontsource/roboto/500.css';
 
 import Logo from '../assets/images/Logo.png';
 
@@ -16,8 +18,10 @@ const Navbar = () => (
       fontSize="24px"
       alignItems="flex-end"
     >
-      <Link to="/" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }}>Home</Link>
-      <a href="#exercises" style={{ textDecoration: 'none', color: '#3A1212' }}>Exercises</a>
+      <Link to="/" style={{ textDecoration: 'none', color: '#fff', borderBottom: '3px solid #' }}><Typography fontSize="20px">Home</Typography></Link>
+      <a href="#exercises" style={{ textDecoration: 'none', color: '#3A1212' }}>
+        <Typography fontSize="20px" color="#fff" letterSpacing="0.5px">Exercises</Typography>
+      </a>
     </Stack>
   </Stack>
 );

@@ -1,6 +1,6 @@
 body {
   font-family: 'Josefin Sans';
-  background-color: #FFFAFB;
+  background: linear-gradient(to bottom, #151515, #7660f1);
 }
 
 * {
@@ -12,6 +12,41 @@ body {
 
 ::-webkit-scrollbar {
   width: 0px;
+}
+.exploreLimits{
+ color: rgb(255, 255, 255);
+ font-family: Montserrat, sans-serif;
+}
+.mainText{
+  background: linear-gradient(135deg, #e597ff, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.checkoutExercises{
+  background: linear-gradient(135deg, #7da0ff, #f9feff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.exploreExercisesBtn{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.2));
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+.exploreExercisesBtn:hover{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.4));
+  border-color: rgba(255, 255, 255, 0.4);
+}
+.AswomeExercises{
+  background: linear-gradient(135deg, #e597ff, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .right-arrow,
@@ -49,25 +84,30 @@ body {
 }
 
 .detail-image {
-  width: 729px;
-  height: 742px;
+  width: 600px;
+  height: 640px;
+  border-bottom-left-radius: 20%;
+  border:4px solid #e3f6f5;
 }
 
 .hero-banner-img {
   position: absolute;
-  right: 40px;
+  right: 10px;
   top: 0px;
-  width: 700px;
-  height: 900px;
+  width: 800px;
+  height: 750px;
   margin-top: -330px;
-
+  border-bottom-left-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #a2d3fc;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .exercise-card {
   width: 400px;
   height: 445px;
   background: #fff;
-  border-top: 4px solid #FF2625;
+  border-top: 4px solid #e3f6f5;
   border-bottom-left-radius: 20px;
   text-decoration: none;
   display: flex;
@@ -89,7 +129,7 @@ body {
 
 .exercise-card:hover,
 .bodyPart-card:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1.05, 1.05);
 }
 
 .search-btn:hover {
