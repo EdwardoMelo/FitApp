@@ -1,3 +1,4 @@
+
 # FitTrackr
 
 FitTrackr is a cutting-edge fitness tracking application built with React. It empowers users to take control of their fitness journey by providing advanced tracking features, personalized recommendations, and a sleek user interface.
@@ -35,3 +36,6 @@ FitTrackr is a cutting-edge fitness tracking application built with React. It em
 ### Name: Eduardo Melo 
 ### Email: eduardo017melo@gmail.com
 ### GitHub: EdwardoMelo
+=======
+
+>>>>>>> 41db3eccd6ae65fdde1a6c71a2232690bafb2112
