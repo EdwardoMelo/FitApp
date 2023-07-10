@@ -6,8 +6,8 @@ const HeroBanner = () => (
   <Box sx={{ mt: { lg: '212px', xs: '70px' }, ml: { sm: '50px' } }} position="relative" p="20px">
     <Typography className="exploreLimits" fontWeight="500" fontSize="38px" letterSpacing="4px">Explore your Limits</Typography>
     <Typography className="mainText" fontWeight={700} letterSpacing="1px" sx={{ fontSize: { lg: '44px', xs: '40px' } }} mb="23px" mt="30px">
-      Sweat, Smile <br />
-      And Repeat
+      Looking for <br />
+      Healthiness
     </Typography>
     <Typography className="checkoutExercises" fontSize="22px" lineHeight="35px" fontWeight="500">
       Check out the most effective exercises personalized to you
